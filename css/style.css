@@ -1,0 +1,39 @@
+body{
+	padding:0;
+	margin:0;
+	overflow-y:scroll;
+	overflow-x:hidden; 
+}
+div{
+	height: 700px;
+}
+.centrar{
+	height: 700px;
+	background-image: url("http://images8.alphacoders.com/375/375342.jpg");
+}
+.intro1{
+	height:150;
+	text-align: center;
+	padding:25px;
+	margin:0;
+	color:red;
+}
+.nivel1{
+	border-radius: 5%;
+	height: 200px;
+	width: 200px;
+	font-size: 20px;
+	text-align: center;
+	margin-top: 50px;
+	margin-left: 175px;
+}
+.nivel2{
+	border-radius: 5%;
+	height: 200px;
+	width: 200px;
+	font-size: 20px;
+	text-align: center;
+	margin-top: 50px;
+	margin-left: 175px;
+
+}
