@@ -18,6 +18,11 @@ button{
 	margin:0;
 	color:red;
 }
+.Regresar{
+	position:absolute; 
+	margin-left:50px; 
+	margin-top:50px;
+}
 .boton{
 	border-radius: 5%;
 	height: 200px;
