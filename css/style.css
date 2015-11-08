@@ -4,8 +4,8 @@ body{
 	overflow-y:hidden;
 	overflow-x:hidden; 
 }
-div{
-	height: 700px;
+button{
+	position:absolute;
 }
 .centrar{
 	height: 700px;
@@ -18,12 +18,34 @@ div{
 	margin:0;
 	color:red;
 }
-.nivel{
+.boton{
 	border-radius: 5%;
 	height: 200px;
 	width: 200px;
 	font-size: 20px;
 	text-align: center;
-	margin-top: 50px;
-	margin-left: 175px;
+}
+#b1{
+	margin-left:175px; 
+	margin-top:50px;
+}
+#b2{
+	margin-left:550px; 
+	margin-top:50px;
+}
+#b3{
+	margin-left:925px; 
+	margin-top:50px;
+}
+#b4{
+	margin-left:175px; 
+	margin-top:300px;
+}
+#b5{
+	margin-left:550px; 
+	margin-top:300px;
+}
+#b6{
+	margin-left:925px; 
+	margin-top:300px;
 }
