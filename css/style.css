@@ -2,13 +2,13 @@ body{
 	padding:0;
 	margin:0;
 	overflow-x:hidden; 
+	background-image: url("http://images8.alphacoders.com/375/375342.jpg");
 }
 button{
 	position:absolute;
 }
 .centrar{
 	height: 700px;
-	background-image: url("http://images8.alphacoders.com/375/375342.jpg");
 }
 #logo{
 	align:middle;
@@ -18,6 +18,10 @@ button{
 .logos{
 	height: 110px;
 	width: 110px;
+}
+.logos:hover{
+	height: 150px;
+	width: 150px;
 }
 .intro1{
 	height:150;
@@ -30,10 +34,48 @@ button{
 	position:absolute;  
 	margin-top:50px;
 	opacity:0;
-	border-radius: 5%;
+	border-radius: 15%;
 	height: 50px;
 	width: 100px;
 	font-size: 20px;
+	background-color: transparent;
+	color: white;
+	border-color: #317dbc;
+	border-width: 5px;
+}
+.listas{
+	position:absolute;
+	opacity: 0;
+	background-color: transparent;
+	color: white;
+	font-size:50px;
+}
+#L1{
+	margin-left:300px; 
+	margin-top:50px;
+	font-size:30px; 
+}
+#L2{
+	margin-left:300px; 
+	margin-top:75px;
+}
+#L3{
+	margin-left:300px; 
+	margin-top:75px;
+}
+#L4{
+	margin-left:300px; 
+	margin-top:50px;
+	font-size:27px; 
+}
+#L5{
+	margin-left:300px; 
+	margin-top:75px;
+}
+#L6{
+	margin-left:300px; 
+	margin-top:50px;
+	font-size:20px; 
 }
 .boton{
 	border-radius: 5%;
