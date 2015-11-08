@@ -194,3 +194,37 @@ $(document).ready(function(){
 		    });
 		});
 });
+function initMap() {
+  var myLatLng = {lat: 25.650940, lng: -100.289849};
+  var info = ["Hola", "Adios","123"]
+
+  var mapOptions = {
+    zoom: 17,
+    center: myLatLng,
+    disableDefaultUI: true
+  }
+  // Create a map object and specify the DOM element for display.
+  var map = new google.maps.Map(document.getElementById('map'), mapOptions);
+
+  // Create a marker and set its position.
+  var marker = new google.maps.Marker({
+    map: map,
+    position: myLatLng,
+    title: 'Hello World!'
+  });
+ //Posición del marcador con comentario
+var markerOptions = {
+    position: new google.maps.LatLng(myLatLng),
+    map: map
+};
+//Información que despliega el marcador
+var infoWindowOptions = {
+    content: info[1]
+};
+//Desplegar información
+var infoWindow = new google.maps.InfoWindow(infoWindowOptions);
+google.maps.event.addListener(marker,'click',function(e){
+  //Llamada de la función
+  infoWindow.open(map, marker); 
+});
+}

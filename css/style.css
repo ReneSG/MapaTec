@@ -2,14 +2,18 @@ body{
 	padding:0;
 	margin:0;
 	overflow-x:hidden; 
+	background-image: url("http://images8.alphacoders.com/375/375342.jpg")
 }
 button{
 	position:absolute;
 }
 .centrar{
 	height: 700px;
-	background-image: url("http://images8.alphacoders.com/375/375342.jpg");
 }
+.centrar2{
+	height: 700px;
+}
+
 #logo{
 	align:middle;
 	margin-top: 25px;
@@ -68,4 +72,11 @@ button{
 #b6{
 	margin-left:925px; 
 	margin-top:300px;
+}
+#map{
+	height:300px;
+	width: 500px;
+	margin-left: 20px;
+	margin-top: 150px;
+	position: absolute;
 }
