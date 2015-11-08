@@ -10,6 +10,11 @@ button{
 	height: 700px;
 	background-image: url("http://images8.alphacoders.com/375/375342.jpg");
 }
+#logo{
+	align:middle;
+	margin-top: 25px;
+	margin-left:375px;
+}
 .intro1{
 	height:150;
 	text-align: center;
